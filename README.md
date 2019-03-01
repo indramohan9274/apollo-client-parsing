@@ -2,8 +2,6 @@
 
 Test app to analyze network and client side parsing time
 
-# How to install and run the app? 
-
 # System Requirement:
 * OSX El Capitan (version 10.13 or greater)
 * XCode 10.1 or greater
