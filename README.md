@@ -18,4 +18,13 @@ Sample app to analyze network and client side parsing time
 * Open XCode project
 ```sh
    open JSONParsingAnalysis.xcodeproj
+   Run the XCode project (cmd + R)
 ```
+
+# Search Location
+Inside ViewController.swift, four different locations are hard coded and one of the location is randomly selected upon every app launch and is sent to the server (both GraphQL and REST)
+
+# GraphQL network response time calculation logic?
+Apollo has abstraction to the networking layer. So, to calculate the network latency an implementation of HTTPNetworkTransportInterception protocol is used to track the total network latency.
+
+#
