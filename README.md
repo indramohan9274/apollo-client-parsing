@@ -2,7 +2,7 @@
 
 Test app to analyze network and client side parsing time
 
-# System Requirement:
+# System requirement
 * macOS High Sierra (version 10.13 or greater)
 * XCode 10.1 or greater
 * Carthage 0.31.2
