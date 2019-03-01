@@ -1,6 +1,6 @@
 # GraphQL latency analysis
 
-Test app to analyze network and client side parsing time
+Sample app to analyze network and client side parsing time
 
 # System requirement
 * macOS High Sierra (version 10.13 or greater)
