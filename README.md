@@ -27,4 +27,5 @@ Inside ViewController.swift, four different locations are hard coded and one of 
 # GraphQL network response time calculation logic?
 Apollo has abstraction to the networking layer. So, to calculate the network latency an implementation of HTTPNetworkTransportInterception protocol is used to track the total network latency.
 
-#
+
+![Screen Shot](https://github.com/indramohan9274/apollo-client-parsing/blob/master/screenshot.png)
