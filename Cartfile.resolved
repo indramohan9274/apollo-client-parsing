@@ -1,0 +1,3 @@
+git "git@github.com:/ExpediaInc/apollo-ios.git" "e86bc37df5edebc9ca30c050060987e820096093"
+github "daltoniam/Starscream" "3.0.6"
+github "stephencelis/SQLite.swift" "0.11.5"

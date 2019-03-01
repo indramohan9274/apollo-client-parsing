@@ -1,0 +1,77 @@
+query activitySearch($context: ContextInput!,
+               $region: ActivityRegionInput!,
+               $dateRange: ActivityDateRangeInput,
+               $filters: ActivitySearchFiltersInput) {
+    activitySearch(context: $context,
+                   region: $region,
+                   dateRange: $dateRange,
+                   filters: $filters) {
+    activities {
+        categoryDetails {
+            name
+            category
+        }
+        description
+        duration {
+            formatted
+        }
+    id
+    image {
+        url
+    }
+    leadTicket {
+        label
+        price {
+        lead {
+            currency {
+                code
+            }
+            raw
+    }
+    strikeOut {
+            currency {
+                code
+            }
+            raw
+        }
+    }
+    }
+    name
+    priceMetadata {
+        discountPercent
+            discountType
+        }
+    redemption {
+        locations {
+            latitude
+            longitude
+        }
+    }
+    reviewSummary {
+        score {
+            raw
+        }
+        total
+    }
+    }
+    searchSummary {
+        resolvedRegion {
+            regionName
+        }
+    }
+    sortAndFilter {
+        categoryFilterOptions {
+            displayOrder
+            name
+            summary {
+                details {
+                    category
+                    name
+                }
+                size
+            }
+            type
+            }
+        }
+    }
+}
