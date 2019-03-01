@@ -1,4 +1,4 @@
-# apollo-client-parsing
+# GraphQL latency analysis
 
 Test app to analyze network and client side parsing time
 
